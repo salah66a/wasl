@@ -1,0 +1,15 @@
+.goal{
+    width: calc(100%/3);
+    height: 421px;
+    background-color: var(--light-blue-color);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.active-goal{
+    background-color: var(--purple-color);
+    height: 500px;
+   
+}

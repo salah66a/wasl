@@ -1,0 +1,16 @@
+p{
+font-size: 30px;
+font-weight: 800;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: right;
+
+}
+.about-item img{
+    width: 65px;
+    height: 45px;
+    margin-bottom:15px ;
+}
+.about-item{
+    margin-bottom: 100px;
+}
