@@ -7,9 +7,36 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .active-goal{
     background-color: var(--purple-color);
-    height: 500px;
-   
+    height: 500px;  
+
+}
+
+.goal:hover  .title{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+.goal:hover .goal-icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.goal p{
+    display: none;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}   
+.goal:hover p{
+    display: inline;
+    position: absolute;
+    top: 200px;
+    right: 20px;
 }

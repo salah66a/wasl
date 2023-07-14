@@ -10,6 +10,7 @@
     --light-blue-color:rgba(88, 184, 194, 1);
     --white-color:rgba(255, 255, 255, 1);
     --footer-color:rgba(23, 30, 70, 1);
+    --black:#000;
 }
 .container{
     width: 75%;

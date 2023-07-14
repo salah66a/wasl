@@ -6,12 +6,12 @@ import Goals from '../../Sections/Goals/Goals'
 import Footer from '../../Sections/Footer/footer'
 function Home() {
   return (
-    <div>
+    <>
       <Header/>
       <About/>
       <Goals/>
       <Footer/>
-    </div>
+    </>
   )
 }
 

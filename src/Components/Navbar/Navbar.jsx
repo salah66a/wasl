@@ -4,12 +4,12 @@ import Logo from '../logo/logo'
 import ListItem from '../Nav list item/listItem'
 import Btn from '../BTN/btn'
 
-function Navbar() {
+function Navbar(props) {
   return (
       <div className="container">
          <nav>
             <Logo/>
-            <ListItem/>
+            <ListItem active={props.active}/>
             <Btn btnText ="تسجيل الدخول"/>
           </nav>
       </div>

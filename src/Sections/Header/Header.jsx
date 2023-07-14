@@ -4,7 +4,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 function Header() {
   return (
     <header>
-        <Navbar/>
+        <Navbar active={true}/>
     </header>
   )
 }

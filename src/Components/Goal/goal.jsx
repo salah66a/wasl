@@ -6,16 +6,22 @@ function Goal(props) {
   if(props.activeGoal){
     return (
       <div className="goal active-goal">
-      <img src={props.goalIcon} alt="goals icon" />
-      <WhiteH2 h2={props.h2}/>
+          <img className='goal-icon' src={props.goalIcon} alt="goals icon" />
+          <div className="title">
+              <WhiteH2 h2={props.h2}/>
+              <p>{props.content}</p>
+          </div>
   </div> 
     )
     }else {
       return(
         <div className="goal">
-        <img src={props.goalIcon} alt="goals icon" />
-        <WhiteH2 h2={props.h2}/>
-    </div>
+          <img className='goal-icon' src={props.goalIcon} alt="goals icon" />
+          <div className="title">
+            <WhiteH2 h2={props.h2}/>
+          </div>
+          <p>{props.content}</p>
+       </div>
       )
     }
 

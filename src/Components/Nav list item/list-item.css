@@ -1,4 +1,5 @@
-.list-item{
+.active-list-item,
+.dark-list-item{
    display: flex;
    justify-content: center;
    align-items:center ;
@@ -6,7 +7,7 @@
     list-style: none;
 }
 
-.list-item a{
+.active-list-item a{
     text-decoration: none;
     color: var(--white-color);
     font-size: 22px;
@@ -16,7 +17,16 @@
     padding: 12px 0;
     transition: 1000ms;
 }
-.list-item .active a{
+.dark-list-item a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 12px 0; 
+}
+.active-list-item .active a{
     font-size: 22px;
     color: var(--light-blue-color);
     font-style: normal;
@@ -24,7 +34,7 @@
     line-height: normal;
     border-bottom: 1px solid var(--light-blue-color);
 }
-.list-item li a:hover{
+.active-list-item li a:hover{
     font-size: 22px;
     color: var(--light-blue-color);
     font-style: normal;

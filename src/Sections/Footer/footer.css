@@ -36,6 +36,9 @@ footer .social{
     align-items: center;
     flex-direction: column;
 }
+.logo-social .logo img{
+cursor: pointer;
+}
 footer .logo-social{
     display: flex;
     justify-content: space-between;
