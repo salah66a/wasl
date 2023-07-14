@@ -1,0 +1,15 @@
+.profile-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.profile-nav img{
+    width: 64px;
+    height: 64px;
+    margin-left:20px ;
+    cursor: pointer;
+}
+.profile-nav__details h3{
+    cursor: pointer;
+}

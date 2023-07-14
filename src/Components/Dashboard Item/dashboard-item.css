@@ -1,0 +1,25 @@
+.dashboard-item{
+    width: 330px;
+    height: 260px;
+    border: 2px solid #3F53CB;
+    border-radius: 16px;
+    background-color:rgb(165, 217, 219);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap:50px  
+}
+.dashboard-item img{
+    width: 64px;
+    height: 64px;
+}
+.dashboard-item h2{
+    color: var(--black);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+

@@ -5,6 +5,10 @@ function Header() {
   return (
     <header>
         <Navbar active={true}/>
+        <div className="container">
+      
+        </div>
+
     </header>
   )
 }

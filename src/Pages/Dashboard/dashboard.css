@@ -1,0 +1,13 @@
+
+.dashboard span a{
+    text-decoration: none;
+    color: var(--black);
+}
+.dashboard-items{
+   display: flex;
+   width: 100%;
+   gap: 40px;
+   margin: 90px 0;
+   
+   gap: 80px;
+}
